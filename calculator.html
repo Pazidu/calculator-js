@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css" />
+  </head>
+  <body>
+    <div class="calContainer">
+      <script src="calculator.js"></script>
+      <p class="header">CALCULATOR</p>
+      <div class="screen">
+        <h1 id="answer">0</h1>
+        <h4 id="calculation">0</h4>
+      </div>
+
+      <div class="keyPad">
+
+        <div class="buttonRow">
+            <button type="button" id="btnAC" onclick="fnAC()" class="sButton">AC</button>
+            <button type="button" id="btnDel" onclick="fnDel()" class="sButton">Del</button>
+            <button type="button" id="btnMem" onclick="fnMem()" class="sButton">M</button>
+            <button type="button" id="btnDiv" onclick="fnDiv()" class="sButton">/</button>
+        </div>
+        <div class="buttonRow">
+            <button type="button" id="btn7" onclick="fn7()" class="sButton">7</button>
+            <button type="button" id="btn8" onclick="fn8()" class="sButton">8</button>
+            <button type="button" id="btn9" onclick="fn9()" class="sButton">9</button>
+            <button type="button" id="btnSub" onclick="fnSub()" class="sButton">*</button>
+        </div>
+        <div class="buttonRow">
+            <button type="button" id="btn4" onclick="fn4()" class="sButton">4</button>
+            <button type="button" id="btn5" onclick="fn5()" class="sButton">5</button>
+            <button type="button" id="btn6" onclick="fn6()" class="sButton">6</button>
+            <button type="button" id="btnMin" onclick="fnMin()" class="sButton">-</button>
+        </div>
+        <div class="buttonRow">
+            <button type="button" id="btn1" onclick="fn1()" class="sButton">1</button>
+            <button type="button" id="btn2" onclick="fn2()" class="sButton">2</button>
+            <button type="button" id="btn3" onclick="fn3()" class="sButton">3</button>
+            <button type="button" id="btnPlus" onclick="fnPlus()" class="sButton">+</button>
+        </div>
+            <div class="buttonRow">
+            <button type="button" id="btn0" onclick="fn0()" class="dButton">0</button>
+            <button type="button" id="btnSqr" onclick="fnSqr()" class="sButton">^</button>
+            <button type="button" id="btnEq" onclick="fnEq()" class="sButton">=</button>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+      </div>
+    </div>
+  </body>
+</html>

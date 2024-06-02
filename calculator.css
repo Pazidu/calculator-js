@@ -1,0 +1,43 @@
+.calContainer{
+    -webkit-box-shadow: 5px 5px 15px -30px #000000; 
+    box-shadow: 5px 5px 15px -30px #000000;
+    background-color: rgb(138, 138, 138);
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.header{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    align-items: center;
+}
+.screen{
+    margin: 10px;
+    background-color: aliceblue;
+}
+.keyPad{
+    margin: 10px;
+    padding-bottom: 10px;
+
+}
+.sButton{
+    width: 104px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(161, 63, 63);
+    cursor: pointer;
+}
+.buttonRow{
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.dButton{
+    width: 212px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: rgb(161, 63, 63);
+    cursor: pointer;
+}
